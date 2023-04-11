@@ -18,7 +18,7 @@ int main() {
     rates.push_back(rate);
   }
   long long start = 0;
-  long long int end = LONG_LONG_MAX;
+  long long int end = LLONG_MAX;
   while (start < end) {
     long long int cur = 0;
     long long int mid = ((end - start) / 2) + start;

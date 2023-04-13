@@ -31,6 +31,7 @@ int main () {
         }
         j += i - 1;
       }
+      
       if (correct) {
         for (int k = 0; k < s2.length(); k++) {
           check = s2.substr(k, i);
